@@ -1,2 +1,3 @@
 # JavaLearning
-Courses and learning about Java
+Java pure code for learning basics about Java Language
+
