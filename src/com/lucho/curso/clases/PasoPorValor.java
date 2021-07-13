@@ -1,0 +1,14 @@
+package com.lucho.curso.clases;
+
+public class PasoPorValor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=10;
+		System.out.println("x= "+x);
+		cambioValor(x);
+	}
+	public static void cambioValor(int arg1) {
+		System.out.println("arg1= "+arg1);
+	}
+}

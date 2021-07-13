@@ -23,6 +23,11 @@ public class Persona {
 		this.nombre = nombre;
 	}
 
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", ocupacion=" + ocupacion + "]";
+	}
+
 	public String getApellido() {
 		return apellido;
 	}
