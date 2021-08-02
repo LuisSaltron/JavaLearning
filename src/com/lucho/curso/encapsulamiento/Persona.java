@@ -12,6 +12,12 @@ public class Persona {
 		this.sueldo=sueldo;
 		this.eliminado=eliminado;
 	}
+	
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", sueldo=" + sueldo + ", eliminado="
+				+ eliminado + "]";
+	}
 
 	public String getNombre() {
 		return nombre;
@@ -44,5 +50,7 @@ public class Persona {
 	public void setEliminado(boolean eliminado) {
 		this.eliminado = eliminado;
 	}
+	
+	
 	
 }
