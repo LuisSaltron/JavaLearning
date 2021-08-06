@@ -12,7 +12,5 @@ public class TestPalabraFinal {
 		System.out.println("Primera referencia del objeto persona"+persona1.getNombre());
 		persona1.setNombre("test");
 		System.out.println("Cambiamos el atributo de la clase "+persona1.getNombre());
-
 	}
-
 }

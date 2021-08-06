@@ -1,21 +1,24 @@
-package com.lucho.curso.palabraFinal;
+package com.lucho.curso.arreglos;
 
 public class Persona {
 	private String nombre;
-	public final static int NUM=12;
-	public  void imprimir() {
-		System.out.println("Metodo final imprimir");
-	}
+
 	/**
 	 * @return the nombre
 	 */
 	public String getNombre() {
 		return nombre;
 	}
+
 	/**
 	 * @param nombre the nombre to set
 	 */
 	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Persona(String nombre) {
+		super();
 		this.nombre = nombre;
 	}
 	
