@@ -4,7 +4,7 @@ public class Caja {
 	int ancho, alto, profundidad;
 
 	public Caja() {
-
+		System.out.println("Constructor vacío");
 	}
 
 	public Caja(int ancho, int alto, int profundidad) {
