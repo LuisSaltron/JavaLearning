@@ -12,6 +12,7 @@ public class Aritmetica {
 	public Aritmetica(int a, int b) {
 		this.a = a;
 		this.b = b;	
+		System.out.println("Ejecutando constructor con argumentos");
 	}
 
 	public int getA() {
@@ -40,8 +41,8 @@ public class Aritmetica {
 	}
 
 	public int sumarConArgumentos(int arg1, int arg2) {
-		a = arg1;
-		b = arg2;
+		this.a = arg1;
+		this.b = arg2;
 		return suma();
 	}
 
