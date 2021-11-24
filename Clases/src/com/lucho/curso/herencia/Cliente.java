@@ -22,6 +22,35 @@ public class Cliente extends Persona {
 		this.vip = vip;
 	}
 
+
+	/**
+	 * @return the fechaRegistro
+	 */
+	public Date getFechaRegistro() {
+		return fechaRegistro;
+	}
+
+	/**
+	 * @param fechaRegistro the fechaRegistro to set
+	 */
+	public void setFechaRegistro(Date fechaRegistro) {
+		this.fechaRegistro = fechaRegistro;
+	}
+
+	/**
+	 * @return the vip
+	 */
+	public boolean isVip() {
+		return vip;
+	}
+
+	/**
+	 * @param vip the vip to set
+	 */
+	public void setVip(boolean vip) {
+		this.vip = vip;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
