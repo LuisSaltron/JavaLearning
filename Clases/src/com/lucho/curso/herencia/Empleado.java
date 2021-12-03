@@ -9,7 +9,8 @@ public class Empleado extends Persona {
 		this.idEmpleado=++Empleado.contadorEmpleado;
 	}
 	public Empleado(String nombre, double sueldo) {
-		super(nombre); 
+		this();
+		this.nombre=nombre;
 		this.sueldo = sueldo;
 	}
 

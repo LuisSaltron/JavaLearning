@@ -25,5 +25,9 @@ public class TestArreglo {
 		for (int i = 0; i < frutas.length; i++) {
 			System.out.println("Fruta "+i+" "+frutas[i]);
 		}
+		int numeros[]= {1,2,3};
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.println("Numero: "+numeros[i]);
+		}
 	}
 }
