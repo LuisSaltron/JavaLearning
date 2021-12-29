@@ -41,4 +41,16 @@ public class Empleado {
 		this.sueldo = sueldo;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Empleado [nombre=");
+		builder.append(nombre);
+		builder.append(", sueldo=");
+		builder.append(sueldo);
+		builder.append("]");
+		return builder.toString();
+	}
+	
+
 }
