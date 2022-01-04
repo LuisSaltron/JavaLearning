@@ -1,4 +1,4 @@
-package com.lucho.curso.api.collections;
+package com.lucho.curso.api.collections.generics;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -18,24 +18,25 @@ public class TestColecciones {
 		miLista.add("Miercoles");
 		miLista.add("Jueves");
 		miLista.add("Viernes");
-		//imprimir(miLista);
-		
-		Set<String> miSet= new HashSet<String>();
+		// imprimir(miLista);
+
+		Set<String> miSet = new HashSet<String>();
 		miSet.add("Lunes");
 		miSet.add("Martes");
 		miSet.add("Miercoles");
 		miSet.add("Jueves");
 		miSet.add("Viernes");
-		//imprimir(miSet);
-		
-		Map<String,String> miMapa=new HashMap<String,String>();
+		imprimir(miSet);
+
+		Map<String, String> miMapa = new HashMap<String, String>();
 		miMapa.put("dia1", "Lunes");
 		miMapa.put("dia2", "Martes");
-		System.out.println(miMapa.get("dia1"));
-		
+		imprimir(miMapa.values());
+
 	}
+
 	public static void imprimir(Collection<String> coleccion) {
-		coleccion.forEach(elemento->{
+		coleccion.forEach(elemento -> {
 			System.out.println(elemento);
 		});
 	}
