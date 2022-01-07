@@ -46,7 +46,7 @@ public class CPJLaboratorioFinal {
 				nombreArchivo = sc.next();
 				catalogoPeliculas.listarPeliculas(nombreArchivo);
 				try {
-					TimeUnit.SECONDS.sleep(3);
+					TimeUnit.SECONDS.sleep(2);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -58,7 +58,7 @@ public class CPJLaboratorioFinal {
 				nombrePelicula = sc.next();
 				catalogoPeliculas.buscarPelicula(nombreArchivo, nombrePelicula);
 				try {
-					TimeUnit.SECONDS.sleep(3);
+					TimeUnit.SECONDS.sleep(2);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -69,5 +69,4 @@ public class CPJLaboratorioFinal {
 		}
 
 	}
-
 }
