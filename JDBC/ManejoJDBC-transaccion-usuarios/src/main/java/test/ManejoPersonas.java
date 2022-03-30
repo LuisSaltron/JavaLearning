@@ -18,18 +18,17 @@ public class ManejoPersonas {
 
             PersonaJDBC personaJdbc = new PersonaJDBC(conexion);
             
-            Persona cambioPersona = new Persona();
-            cambioPersona.setId_persona(2);
-            cambioPersona.setNombre("Karla Ivonne");
-            cambioPersona.setApellido("Gomez");
-            cambioPersona.setEmail("kgomez@mail.com");
-            cambioPersona.setTelefono("7713445678");
-            personaJdbc.update(cambioPersona);
+//            Persona cambioPersona = new Persona();
+//            cambioPersona.setId_persona(2);
+//            cambioPersona.setNombre("Karla Ivonne");
+//            cambioPersona.setApellido("Gomez");
+//            cambioPersona.setEmail("kgomez@mail.com");
+//            cambioPersona.setTelefono("7713445678");
+//            personaJdbc.update(cambioPersona);
             
             Persona nuevaPersona = new Persona();
             nuevaPersona.setNombre("Carlos");
-            //nuevaPersona.setApellido("Ramirez11111111111111111111111111111111111111111111");
-            nuevaPersona.setApellido("Ramirez");
+            nuevaPersona.setApellido("Ramirez11111111111111111111111111111111111111111111");
             personaJdbc.insert(nuevaPersona);
             
             conexion.commit();
