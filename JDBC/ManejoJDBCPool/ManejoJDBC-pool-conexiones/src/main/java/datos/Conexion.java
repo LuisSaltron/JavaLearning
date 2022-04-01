@@ -17,7 +17,7 @@ public class Conexion {
             dataSource.setUrl(JDBC_URL);
             dataSource.setUsername(JDBC_USER);
             dataSource.setPassword(JDBC_PASS);
-            dataSource.setInitialSize(50);
+            dataSource.setInitialSize(5);
         }
         return dataSource;
     }
