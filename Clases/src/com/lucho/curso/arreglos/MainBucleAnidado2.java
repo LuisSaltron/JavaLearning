@@ -1,0 +1,18 @@
+package com.lucho.curso.arreglos;
+
+import java.util.Scanner;
+
+public class MainBucleAnidado2 {
+	public static void main(String[] args) {
+		Scanner lectura = new Scanner(System.in);
+		System.out.println("Indique cuantos pisos para la escalera");
+		int pisos = lectura.nextInt();
+		
+		for (int horizontal = pisos; horizontal >=1; horizontal--) {
+			for (int vertical = horizontal; vertical >= 1; vertical--) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+	}
+}
